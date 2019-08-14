@@ -1,10 +1,31 @@
 # Udagram Image Filtering Microservice
 
-## Tasks
+Scott Hwang
+2019-08-14
 
-### Setup Node Enviornment
+This code is for a project requirement of the Udacity Cloud Developer Nanodegree course. Most of the code was provided. Students were tasked to create a new RESTful endpoint which takes a URL for an image on the Web, filters it, and returns the filtered image. The original copy is deleted from the server.
 
-You'll need to create a new node server. Open a new terminal within the project directory and run:
+## Instructions
+
+The format of the endpoint is the following:
+
+http://image-filter-dev-dev.us-east-1.elasticbeanstalk.com/filteredimage/?image_url={URL}
+
+For example
+If the original image is at the following URL:
+
+https://timedotcom.files.wordpress.com/2019/03/kitten-report.jpg
+
+Enter the following in your browser to filter it:
+http://image-filter-dev-dev.us-east-1.elasticbeanstalk.com/filteredimage/?image_url=https://timedotcom.files.wordpress.com/2019/03/kitten-report.jpg
+
+
+
+## Setup and Instructions
+
+### Node Enviornment
+
+Node.js must be installed. Create a new node server. Open a new terminal within the project directory and run:
 
 1. Initialize a new project: `npm i`
 2. run the development server with `npm run dev`

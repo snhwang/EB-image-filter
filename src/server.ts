@@ -31,19 +31,6 @@ import { ExecOptionsWithBufferEncoding } from 'child_process';
 
   /**************************************************************************** */
 
-
-  // From https://www.npmjs.com/package/valid-url
-  /*
-  var validUrl = require('valid-url');
-
-  if (validUrl.isUri(suspect)) {
-    console.log('Looks like a URI');
-  } else {
-    console.log('Not a URI');
-  }
-*/
-
-
 /* Based on code at https://stackoverflow.com/questions/46858445/express-js-response-sent-callback
  * as well as code from the Udacity course materials (udacity-c2-restapi).
  * This was also helpful: 
@@ -68,19 +55,6 @@ import { ExecOptionsWithBufferEncoding } from 'child_process';
     }
   )
 
-/*
-  app.get("/:image_url",
-  (req: Request, res: Response) => {
-    let { image_url } = req.params;
-    
-    if (!image_url) {
-      return res.status(400)
-                .send('An Image URL is required.');
-    }
-    return res.status(200)
-              .send('Your image will be retrieved from ${image_url}');
-  });
-*/
   //! END @TODO1
   
   // Root Endpoint
