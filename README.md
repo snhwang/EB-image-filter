@@ -1,9 +1,9 @@
 # Udagram Image Filtering Microservice
 
 Scott Hwang
-2019-08-04
+2019-08-14
 
-This code is for a project requirement of the Udacity Cloud Developer Nanodegree course. Most of the was provided. Students were tasked to create a new RESTful endpoint which takes a URL for an image on the Web, filters it, and returns the filtered image. The original copy is deleted from the server.
+This code is for a project requirement of the Udacity Cloud Developer Nanodegree course. Most of the code was provided. Students were tasked to create a new RESTful endpoint which takes a URL for an image on the Web, filters it, and returns the filtered image. The original copy is deleted from the server.
 
 ## Instructions
 
